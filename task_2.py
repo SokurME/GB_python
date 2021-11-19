@@ -30,8 +30,8 @@ def hex_sum(x, y):
     return answer
 
 
-a = input('Введите первое число: ')
-b = input('Введите второе число: ')
+# a = input('Введите первое число: ')
+# b = input('Введите второе число: ')
 if len(a) < len(b):
     c, d = deque(b), deque(a)
 else:
